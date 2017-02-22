@@ -6,7 +6,7 @@ library(dplyr)
 # load the `msleep` data set and store it in `animal.sleep`
 # do a google search to find function that can keep only rows that don't
 # have any values missing
-animal.sleep <- data("msleep")
+animal.sleep <- data.frame("msleep")
 
 
 # View it to learn more about it
